@@ -4,7 +4,7 @@
 
 ## WhoList_Staff
 Azerothcore Edit that show Staff rank in Who List
-Credits to [Revision - noisiver] Revision#2262 (Help on the script) / [Trojan] Trojan#1312 (Help & Fix on the script) & [Dandi] Dandi#2828 (Help & Fix on the script + Making it to work with the final touch)
+Credits to me [Mithras] angelz_0 /  [Revision - noisiver] Revision#2262 (Help on the script) / [Trojan] Trojan#1312 (Help & Fix on the script) & [Dandi] Dandi#2828 (Help & Fix on the script + Making it to work with the final touch)
 
 
 Just Download the "MiscHandler.cpp" & put it in your Source Folder
