@@ -395,7 +395,16 @@ void WorldSession::HandleWhoOpcode(WorldPacket& recvData)
             continue;
         }
 
-        data << target.GetPlayerName();                   // player name
+        std::string playerName = ""; //temp storage
+
+        //definition of playerName depending on the (player/GM)'s rank
+        if (target.GetSecurity() >= 1) //if the rank is 1 or above
+        playerName = "|cffFFFFFF[|r|cffFA8258Staff|cffffffff]|r  " + target.GetPlayerName();
+        else
+        playerName = target.GetPlayerName();
+
+        //data << target.GetPlayerName();                 // player name - commented out to be replaced with the new playerName
+        data << playerName;                               // player name - with Staff indicator
         data << target.GetGuildName();                    // guild name
         data << uint32(lvl);                              // player level
         data << uint32(class_);                           // player class
