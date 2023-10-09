@@ -12,7 +12,7 @@ Just Download the "MiscHandler.cpp" & put it in your Source Folder
 
  or
 
- ****Copy the Code line & put them at line 398 of "MiscHandler.cpp".*****
+ ****Copy the Code & replace it at line 398 in "MiscHandler.cpp".*****
  
 ****Remove the line 398 by Pasting the code on it****
 
