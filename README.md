@@ -13,14 +13,17 @@ Just Download the "MiscHandler.cpp" & put it in your Source Folder
  or
 
  ****Copy the Code line & put them at line 398 of "MiscHandler.cpp".*****
+ 
 ****Remove the line 398 by Pasting the code on it****
 
 Line 398 in MiscHandler.cpp
+
 ****data << target.GetPlayerName();                   // player name**** 
 
 
 
 ****Code to Paste On line 398****
+
 std::string playerName = ""; //temp storage
 
         //definition of playerName depending on the (player/GM)'s rank
