@@ -21,9 +21,7 @@ Line 398 in MiscHandler.cpp
 ****data << target.GetPlayerName();                   // player name**** 
 
 
-
 ****Code to Paste On line 398****
-
 
 ```
 std::string playerName = ""; //temp storage
