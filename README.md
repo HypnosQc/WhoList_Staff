@@ -37,4 +37,4 @@ data << playerName;                               //player name - with Staff ind
 ```
 
 & Then it should show like that ingame 
-![alt text]([http://url/to/img.png](https://ibb.co/QcGVQpF)https://ibb.co/QcGVQpF)
+![Screenshot](screenshot.png)
