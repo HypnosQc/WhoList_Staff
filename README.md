@@ -35,3 +35,6 @@ else
 //data << target.GetPlayerName();                 // player name - commented out to be replaced with the new playerName
 data << playerName;                               //player name - with Staff indicator
 ```
+
+& Then it should show like that ingame 
+![alt text]([http://url/to/img.png](https://ibb.co/QcGVQpF)https://ibb.co/QcGVQpF)
